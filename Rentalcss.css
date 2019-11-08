@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background: rgb(10, 10, 10);
+    font-family: Gruppo;
+}
+
+header {
+    background: rgb(32, 32, 32);
+    border: 3px solid black;
+    border-radius: 35px;
+    margin: 20px;
+
+    box-shadow:
+        0 0 10px #fff,          
+        -10px 0 10px #f0f,       
+        10px 0 10px rgb(55, 0, 255);   
+}
+
+.headerContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    height: auto;
+    float: left;
+    border: 3px solid black;
+    color: black;
+    font-family: Gruppo;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    font-family: Gruppo;
+    font-Size: 2.5em;
+    font-weight: bold;
+    margin: 3px;
+    text-shadow: -1px 0 5px white, 0 1px 5px white, 1px 0 5px white, 0 -1px 5px white;
+}
+
+p {
+    font-family: Gruppo;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 3px;
+    text-shadow: -1px 0 5px white, 0 1px 5px white, 1px 0 5px white, 0 -1px 5px white;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    font-family: Gruppo;
+    font-size: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 8px 4px;
+    cursor: pointer;
+
+    background: rgb(32, 32, 32);
+    border: 3px solid black;
+    border-radius: 35px;
+
+    box-shadow:
+        0 0 10px #fff,          
+        -10px 0 10px #f0f,       
+        10px 0 10px rgb(55, 0, 255);   
+  }
+
+header ::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+}
+table {
+    color: white;
+}
+
+.container {
+    background: rgb(32, 32, 32);
+    border: 3px solid black;
+    border-radius: 35px;
+    margin: 20px;
+
+    box-shadow:
+        0 0 10px #fff,          
+        -10px 0 10px #f0f,       
+        10px 0 10px rgb(55, 0, 255);   
+}
+
+.content {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav li {
+    
+    border: 2px solid rgb(19, 19, 19);
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 18px;
+    padding: 3px;
+
+    background-color: black;
+
+    box-shadow:
+        inset 0 0 10px #fff,      /* inner white */
+        inset 20px 0 15px #f0f,   /* inner left magenta short */
+        inset -20px 0 15px rgb(55, 0, 255),  /* inner right cyan short */
+        inset 20px 0 30px #f0f,  /* inner left magenta broad */
+        inset -20px 0 30px rgb(47, 0, 255), /* inner right cyan broad */
+        0 0 10px #fff,            /* outer white */
+        -10px 0 20px #f0f,        /* outer left magenta */
+        10px 0 20px rgb(55, 0, 255);         /* outer right cyan */
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: -1px 0 2px white, 0 1px 2px white, 1px 0 2px white, 0 -1px 2px white;
+    font-weight: bolder;
+
+    font-size: 20px;
+
+    position: relative;
+    top: -2.5px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: white;
+
+    position: relative;
+    top: 35px;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+imagefilledrectangle {
+    box-shadow:
+        inset 0 0 10px #fff,      /* inner white */
+        inset 20px 0 15px #f0f,   /* inner left magenta short */
+        inset -20px 0 15px rgb(55, 0, 255),  /* inner right cyan short */
+        inset 20px 0 30px #f0f,  /* inner left magenta broad */
+        inset -20px 0 30px rgb(47, 0, 255), /* inner right cyan broad */
+        0 0 10px #fff,            /* outer white */
+        -10px 0 20px #f0f,        /* outer left magenta */
+        10px 0 20px rgb(55, 0, 255);         /* outer right cyan */
+
+}
+
+@font-face {
+ font-family: Gruppo;
+ src: url(Gruppo-Regular.ttf)
+}
